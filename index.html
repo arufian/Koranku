@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"　/>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv='cache-control' content='no-cache' />
+<meta http-equiv='expires' content='0' />
+<meta http-equiv='pragma' content='no-cache' />
+<title>KoranKu</title>
+<link rel="stylesheet" href="css/jquery.mobile-1.0a4.1.css" />
+<link href="css/koranku.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script src="js/jquery.mobile-1.0a4.1.js"></script>
+<script type="text/javascript" src="js/jquery.xdomainajax.js"></script>
+<script type="text/javascript" src="js/detik.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a" id="top">
+  <div data-role="header">
+		<h2 id="lambang">KoranKu</h2>
+  </div>
+    <div data-role="content" class="ui-content" role="main">
+	  	<div class="apps_desc">
+	  		KoranKu is a NewsReader Application with Facebook Platform Integration<br/>
+	  		Supported Browser Safari, Chrome
+	  	</div>
+	  	<h2>News Search (Beta)</h2>
+		<div data-role="fieldcontain" id="region_group">
+		    <fieldset data-role="controlgroup" data-type="horizontal">
+		     	<legend>Choose your language:</legend>
+		         	<input type="radio" name="radioreg" id="region_world" value="en" checked="checked" />
+		         	<label for="region_world">English</label>
+		         	<input type="radio" name="radioreg" id="region_ind" value="id"  />
+		         	<label for="region_ind">Indonesia</label>
+		         	<input type="radio" name="radioreg" id="region_jap" value="jp"  />
+		         	<label for="region_jap">Japanese</label>
+		    </fieldset>
+		    <div data-role="fieldcontain" id="search_form">
+			    <label for="news_query">Search :</label>
+			    <input type="search" name="news_query" id="search" value="" data-theme="b" data-inline="true"/>
+			    <a href="javascript:void(0);" data-role="button" data-inline="true" data-icon="search" data-url="news_query">Search</a>
+			</div>
+		</div>
+		<hr />
+	  	<h2>Other News</h2>
+	  	<h3>Indonesia</h3>
+	  	<div data-role="collapsible" data-collapsed="true" data-theme="c">
+			<h3>Detik</h3>
+			<ul data-role="listview" data-inset="true" data-theme="d">
+					<li><a href="javascript:void(0);" data-url="det_sepak">Detik Sepakbola</a></li>
+					<li><a href="javascript:void(0);" data-url="det_news">Detik News</a></li>
+					<li><a href="javascript:void(0);" data-url="det_inet" >DetikI-net</a></li>
+			</ul>
+		</div>
+		<div data-role="collapsible" data-theme="b" data-collapsed="true">
+			<h3>Kompas</h3>
+			<ul data-role="listview" data-inset="true" data-theme="d">
+					<li><a href="javascript:void(0);" data-url="kompas_all">Kompas All</a></li>
+					<li><a href="javascript:void(0);" data-url="kompas_nas">Kompas Nasional</a></li>
+					<li><a href="javascript:void(0);" data-url="kompas_inter">Kompas Internasional</a></li>
+			</ul>
+		</div>
+		<h3>Japan（日本語）</h3>
+		<div data-role="collapsible" data-collapsed="true" data-theme="b">
+			<h3>Yomiuri</h3>
+			<ul data-role="listview" data-inset="true" data-theme="d">
+					<li><a href="javascript:void(0);" data-url="yomiuri_rank">ランキング記事<span class="ui-li-count">30</span></a></li>
+					<li><a href="javascript:void(0);" data-url="yomiuri_top">トップ＆主要<span class="ui-li-count">6</span></a></li>
+					<li><a href="javascript:void(0);" data-url="yomiuri_new">新着<span class="ui-li-count">30</span></a></li>
+			</ul>
+		</div>
+		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=178231718898733&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/apps/application.php?id=219350378089815" send="true" layout="box_count" width="450" show_faces="false" action="recommend" font="arial"></fb:like>
+		<br/>
+		<div style="text-align:center">
+			<a rel="external" href="http://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+			Experimental WebApps by <a href="http://about.me/htt_fan2345" rel="external" target="_blank">Aru</a>
+		</div>
+	</div>
+	<div data-role="footer">
+		<h4>All Data in this site is owned and copyrighted by News Source</h4>
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" id='news_list'>
+	<div data-role="header">
+		<a href='#' data-theme="b" class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false;">
+        	Back
+        </a>
+		<h3>KoranKu</h3>
+		<a href="#top" data-icon="home">Home</a>
+	</div>
+	<div data-role="content">
+		<div class="apps_desc">
+	  		KoranKu is a NewsReader Application with Facebook Platform Integration<br/>
+	  		Supported Browser Safari, Chrome
+	  		<br/><br/>
+	  	</div>
+		<ul data-role="listview" data-theme="c" data-dividertheme="a"></ul>
+	</div>
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<h4>All Data in this site is owned and copyrighted by News Source</h4>
+	</div><!-- /footer -->
+</div>
+<div data-role="page" data-theme="a" id='news_content'>
+	<div data-role="header">
+		<a href='#' data-theme="b" class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false;">
+        	Back
+        </a>
+		<h3>KoranKu</h3>
+		<a href="#top" data-icon="home">Home</a>
+	</div>
+	<div data-role="content"></div>
+	<div data-role="footer">
+		<h4>All Data in this site is owned and copyrighted by News Source</h4>
+	</div>
+</div>
+<!-- Start: TraceMyIP.org Code //-->
+<script type="text/javascript" src="http://s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1209&amp;rgtype=4684NR-IPIB&amp;pidnVar2=21716&amp;prtVar2=4&amp;scvVar2=12"></script>
+<!-- End: TraceMyIP.org Code //-->
+</body>
+</html>

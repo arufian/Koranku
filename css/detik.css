@@ -1,0 +1,2190 @@
+body {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    line-height: 130%;
+    font-size: 12px;
+    color: #181818;
+    background-color: #cedef1;
+    background-image: url(../image/bginggris.gif);
+    background-position: top center;
+    background-repeat: repeat-x;
+       background-attachment: fixed;
+    text-align: center;
+    margin: auto;
+    padding: 14px 0 60px;
+}
+a:link {
+    color: #0033FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #0033FF;
+    text-decoration: none;
+}
+a:hover {
+    color: #EE0000;
+    text-decoration: underline;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #181818;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+.input {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    text-align: left;
+    border: 1px solid #cccccc;
+}
+.comentteks {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    text-align: left;
+    background-color: #E8E9FF;
+    border: 1px solid #333399;
+    width: 320px;
+}
+.inputsubmit {
+    width: 75px;
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EE0000;
+    border: 1px solid #EE0000;
+}
+
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden}/* Clearfix IE6 */ * html .clearfix{height:1%}/* Clearfix IE7 */*:first-child+html .clearfix{min-height:1px}
+
+/* HEADER ----------------------------------------------*/
+#header {width: 900px;text-align: left;margin: auto;padding: 0;clear: both;}
+#header .logo {width: 250px; margin: 0;padding: 10px 0 0 0;float: left;}
+#header .bannerA { width: 650px;text-align: right; margin: 0; padding: 0 0 10px 0;float: left;}
+
+#header #menuutama {margin: 0;padding: 0;border: 0;background-color: #efefef;background-image: url(../image/bgmenuatas.gif);background-repeat: repeat-x;background-position: left top;border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;clear: both;}
+#header #menuutama ul {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;text-shadow: 0 1px #ccc;margin: 0;padding: 0;border: 0;white-space: nowrap;height: 28px;text-transform: uppercase;}
+#header #menuutama ul li {margin: 0;padding: 0;display: inline;list-style-type: none;}
+#header #menuutama ul a, #header #menuutama ul strong, #header #menuutama ul em {display: block;padding: 8px 12px 8px 12px;text-decoration: none;font-weight: normal;color: #e00;white-space: nowrap;border-right: 1px solid #a1a1a1;border-left: 1px solid #fff;float: left;}
+html>body #header #menuutama ul a, #header #menuutama ul strong, #header #menuutama ul em {padding: 8px 12px 8px 12px;}
+/* \ Hack to get IE5/Mac to ignore the following rule */
+#header #menuutama ul a {height: 1em; line-height: 1em;}
+/* \ Hack to get IE5/Mac to ignore the following rule */
+#header #menuutama ul strong {height: 1em;line-height: 1em;}
+/* \ Hack to get IE5/Mac to ignore the following rule */
+#header #menuutama ul em {height: 1em;line-height: 1em;}
+#header #menuutama ul em {float: none;border-style: none;display: block;}
+#header #menuutama ul span {font-weight: bold;color: #e00;}
+#header #menuutama ul span span {display: none;}
+#header #menuutama ul strong, #header #menuutama ul strong span {background-color: #dd0000;color: #fff;text-decoration: underline;}
+#header #menuutama ul strong a span {color: #003399;text-decoration: underline;}
+#header #menuutama ul a:hover, #header #menuutama ul a:focus {background-color: #dd0000;text-decoration: underline;border-right: 1px solid #990000; border-left: 1px solid #ff9999;text-shadow: 0 1px #000;}
+#header #menuutama ul a:hover, #header #menuutama ul a:focus, #header #menuutama ul a:hover span, #header #menuutama ul a:focus span { color: #fff; border-bottom-width: 0;}
+#header #menuutama ul strong a, #header #menuutama ul strong a:visited {float: none;display: inline;padding: 0;border-style: none;background-color: transparent !important;}
+#header #menuutama ul li .on {color: #666;text-decoration: none;}
+
+/* Submenu */
+#header .submenu {margin:0;padding:5px 20px 8px 20px;background-color:#666;text-shadow: 0 1px #333;clear: both;}
+#header .submenu ul {font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 11px; font-weight:bold;margin: auto;padding: 0;border: 0;height: 13px;text-align: center;}
+#header .submenu ul li {margin:-2px;padding: 0 15px;display: inline;list-style-type: none;text-align: center; border-right: 1px solid #999; border-left: 1px solid #999;}
+#header .submenu a:link, #header .submenu a:visited {color: #fff;}
+#header .submenu a:hover {color: #ff0;}
+#header .submenu .on {color: #ff0;}
+#header .news {padding-left: 140px;}
+#header .gadget {padding-left: 215px;}
+#header .games {padding-left: 311px;}
+
+/* Search */
+#header #search {background-color: #fff;background-image: url(../image/bgdateon.gif);background-repeat: repeat-x;background-position: left top;padding: 0 10px;margin: 0;height: 40px;border-top: 3px solid #999; font-size:12px;clear: both;}
+#header #search .date {width: 225px;margin: 12px 0 0 0; font-size:12px;float: left;}
+#header #search .search-detiksearch {width: 390px;height: 30px;margin: 5px 0 2px 0;display: inline;background: url(../image/bg_search_form.gif) no-repeat 0 0;float: left;}
+#header #search .search-detiksearch .logo {width: 3px;height: 28px;background: none;padding: 0;float: left;}
+#header #search .search-detiksearch .input {background-image: url(../image/bg_search.gif);background-repeat: no-repeat;background-position: left center;height: 20px;line-height: 22px;font-size: 14px;border: none;width: 322px;margin: 3px 0 0 8px;color: #666;clear: none;float: left;}
+#header #search .search-detiksearch .inputsubmit {height: 28px;width: 50px;padding: 0;float: left;border: none;background: none;cursor: pointer;clear:none;}
+#header #search .rss {width:260px; margin:0; padding:0; float:right; position:relative;}
+#header #search .rss .icon2 {width:28px; height: 28px;}
+#header #search .rss .text {width:142px; margin:0; padding:0; float:left; top:14px; position:relative; text-align:right;}
+#header #search .rss .iconrss {width:auto;margin:0;padding:0;position:absolute;top:3px;right:0px;background-image: url(../image/icon_rsswp.gif);background-repeat: no-repeat;background-position: left bottom;float:right;}
+#header #search .rss .iconfb {width:auto;margin:0;padding:0;position:absolute;top:3px;right:80px;background-image: url(../image/icon_fbwp.gif);background-repeat: no-repeat;background-position: left bottom;float:right;}
+#header #search .rss .icontw {width:auto;margin:0;padding:0;float:right;position:absolute;top:3px;right:40px;background-image: url(../image/icon_twitterwp.gif);background-repeat: no-repeat;background-position: left bottom;}
+
+/* HEIGLIGHT ----------------------------------------------*/
+#heiglight {
+    width: 900px;
+    color: #FFF;
+    line-height: 145%;
+    text-align: left;
+    background-color: #0000e9;
+    background-image: url(../image/bghlheiglight2.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    margin: auto;
+    padding: 0;
+    clear: both;
+}
+#heiglight a:link {
+    color:#FFF;
+    text-decoration: none;
+}
+#heiglight a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#heiglight a:hover {
+    color: #FFFF00;
+    text-decoration: underline
+}
+#heiglight ul {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#heiglight ul li {
+    padding: 1px 0;
+    margin: 0 0 0 24px;
+    list-style-position: outside;
+    list-style-image: url(../image/panahforumwp.gif);
+    list-style-type: none;
+    clear: both;
+}
+#heiglight .date {
+    font-size: 10px;
+    color: #FFFF00;
+}
+#heiglight .subjudul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 110%;
+    color: #FFFF33;
+}
+#heiglight .judul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+    line-height: 110%;
+}
+#heiglight #hlheiglight {
+    width: 600px;
+    height: 250px;
+    padding: 3px 13px 12px 14px;
+    margin: 0;
+    border-right: 8px solid #FFFFFF;
+    float: left;
+}
+html>body #heiglight #hlheiglight {
+    width: 565px;
+    height: 235px;
+}
+#heiglight #hlheiglight .petunjuk {
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: right;
+    padding: 0;
+    margin: 0 0 4px 0;
+    border-bottom: 1px solid #8787f9;
+    clear: both;
+}
+#heiglight #hlheiglight h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color:#FFFF00;
+    font-size: 13px;
+    text-align: left;
+    padding: 2px 0;
+    margin: 4px 0 0 0;
+}
+#heiglight #hlheiglight .image {
+    text-align: left;
+    font-size: 10px;
+    padding: 2px;
+    margin: 3px 10px 0 0;
+    border: 1px solid #8787f9;
+    float: left;
+}
+#heiglight .bannerB1 {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+/* CONTENT ----------------------------------------------*/
+#content {
+    width: 900px;
+    text-align: left;
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    clear: both;
+}
+html>body #content {
+    width: 898px;
+}
+#content a:link {
+    color: #dd0000;
+    text-decoration: none;
+}
+#content a:visited {
+    color: #dd0000;
+    text-decoration: none;
+}
+#content a:hover {
+    color: #EE0000;
+    text-decoration: underline;
+}
+#content .bannerBCD {
+    text-align: center;
+    margin: 0;
+    padding: 12px 0;
+    border-top: 1px solid #cccccc;
+    clear: both;
+}
+
+#content #kiri {
+    width: 367px;
+    text-align: left;
+    padding: 13px 14px 10px 13px;
+    margin: 0;
+    float: left;
+}
+html>body #content #kiri {
+    width: 340px;
+}
+#content #kiri h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ee0000;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    padding: 3px 0;
+    margin: 0;
+    border-top: 3px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+#content #kiri h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #006600;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 0;
+    margin: 20px 0 5px 0;
+    border-top: 3px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+#content #kiri h2 a:link {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kiri h2 a:visited {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kiri h2 a:hover {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kiri h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #006600;
+    text-align: right;
+    padding: 3px 0;
+    margin: 0;
+    border-top: 1px dotted #cccccc;
+    border-bottom: 1px dotted #cccccc;
+    clear: both;
+}
+#content #kiri .image {
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin: 3px 5px 3px 0;
+    border: 1px solid #cccccc;
+    float: left;
+}
+#content #kiri .date {
+    color: #666666;
+    line-height: 100%;
+    font-size: 10px;
+}
+#content #kiri .subjudul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 110%;
+    color: #ff6600;
+}
+#content #kiri .judul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 110%;
+    font-weight: bold;
+}
+#content #kiri #headline {
+    line-height: 135%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+#content #kiri #headline a:link {
+    color: #FF0000;
+    text-decoration: none;
+}
+#content #kiri #headline a:visited {
+    color: #FF0000;
+    text-decoration: none;
+}
+#content #kiri #headline a:hover {
+    color: #dd0000;
+    text-decoration: underline
+}
+#content #kiri #headline ul {
+    padding: 0;
+    margin: 0;
+    border-top: 3px solid #dcdcdc;
+    clear: both;
+}
+#content #kiri #headline ul li {
+    padding: 8px 0;
+    margin: 0 2px 0 0;
+    border-bottom: 1px solid #dcdcdc;
+    list-style-type: none;
+    list-style-position: outside;
+    clear: both;
+}
+#content #kiri #headline .date {
+    font-size: 10px;
+}
+#content #kiri #headline .subjudul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 110%;
+    color: #0033CC;
+}
+#content #kiri #headline .judul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    line-height: 110%;
+    font-weight: normal;
+}
+#content #kiri #headline .tv {
+    height: 100px;
+    background-image: url(../image/bgtvkecil.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    text-align: left;
+    padding: 7px 7px 0px 7px;
+    margin: 4px 6px 0px 0px;
+    float: left;
+}
+#content #kiri .bannerB2 {
+    text-align: center;
+    background-color: #ebebeb;
+    padding: 5px 19px;
+    margin: 20px 0 15px 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kiri #nonhl {
+    line-height: 130%;
+    text-align: left;
+    padding: 0px;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #kiri #nonhl a:link {
+    color: #dd0000;
+    text-decoration: none;
+}
+#content #kiri #nonhl a:visited {
+    color: #dd0000;
+    text-decoration: none;
+}
+#content #kiri #nonhl a:hover {
+    color: #ee0000;
+    text-decoration: underline
+}
+#content #kiri #nonhl ul {
+    padding: 0 0 10px 20px;
+    margin: 0;
+    clear: both;
+}
+#content #kiri #nonhl ul li {
+    padding: 1px 0;
+    margin: 0;
+    list-style-type: square;
+    list-style-position: outside;
+    color: #666666;
+    clear: both;
+}
+#content #kiri #indeksberita {
+    height: 23px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 110%;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: right;
+    background-color: #0000a2;
+    padding: 4px 10px;
+    margin: 1px 0px 0px 0px;
+    border: 1px solid #0000a2;
+    clear: both;
+}
+html>body #content #kiri #indeksberita {
+    height: 17px;
+}
+#content #kiri #indeksberita a:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#content #kiri #indeksberita a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#content #kiri #indeksberita a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+}
+#content #kiri #indeksberita .indeksnya {
+    text-align: right;
+    padding: 0px;
+    margin: 2px 0px 0px 15px;
+    float: right;
+}
+#content #kiri #indeksberita .rss {
+    text-align: right;
+    padding: 0px;
+    margin: 1px 0px 0px 0px;
+    float: right;
+}
+#content #kiri #contentkiri01 {
+    padding: 0px;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #kiri #contentkiri02 {
+    padding: 0px;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #kiri #contentkiri03 {
+    padding: 0px;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #kiri #contentkiri03 ul {
+    padding: 0 0 2px 16px;
+    margin: 0;
+    clear: both;
+}
+#content #kiri #contentkiri03 ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: square;
+    list-style-position: outside;
+    color: #666666;
+    clear: both;
+}
+
+#content #kiri #headlineAd2 {
+   width: 300px;
+   text-align: center;
+   margin: 13px 0px 12px 0px;
+   padding: 3px 0px;
+   border: 0px;
+   display: block;
+   visibility: visible;
+   position: relative;
+   border-top: 1px solid #a5b9ec;
+   border-bottom: 1px solid #a5b9ec;
+   clear: both;
+}
+#content #kiri #headlineAd2:hover {
+   height: 240px;
+   visibility: visible;
+}
+#content #kiri #headlineAd2a {
+   width: 300px;
+   text-align: center;
+   margin: auto;
+   padding: 15px 0px 12px 0px;
+   border: 0px;
+   display: block;
+   visibility: hidden;
+   position: absolute;
+   left: 0px;
+   top: -15px;
+   clear: both;
+}
+
+
+#content #kiriisi .googleadsense {
+    padding: 5px 0;
+    margin: 20px 0 0 0;
+    border-top: 3px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+
+#content #kiriisi #linklain {
+    font-weight: bold;
+    line-height: 150%;
+    padding: 2px 0;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #kiriisi #linklain a:link {
+    text-decoration: underline;
+}
+#content #kiriisi #linklain a:visited {
+    text-decoration: underline;
+}
+#content #kiriisi #linklain a:hover {
+    text-decoration: none;
+}
+/* TENGAH */
+#content #tengah {
+    width: 222px;
+    min-height: 1680px;
+    height: auto !important;
+    height: 1725px;
+    line-height: 130%;
+    color: #FFF;
+    text-align: left;
+    background-color: #3333cc;
+    background-image: url(../image/bghlwp3.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
+    padding: 10px 11px 35px 11px;
+    margin: 13px 0 0 0;
+    float: left;
+}
+html>body #content #tengah {
+    width: 202px;
+}
+#content #tengah h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color:#FFF;
+    text-transform:uppercase;
+    text-align: left;
+    padding: 3px 0;
+    margin: 0 0 1px 0;
+    border-top: 2px solid #8787f9;
+    border-bottom: 1px solid #8787f9;
+    clear: both;
+}
+#content #tengah h1 a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#content #tengah h1 a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#content #tengah h1 a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+#content #tengah h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color:#FFF;
+    text-transform:uppercase;
+    text-align: left;
+    padding: 3px 0;
+    margin: 30px 0 5px 0;
+    border-top: 2px solid #8787f9;
+    border-bottom: 1px solid #8787f9;
+    clear: both;
+}
+#content #tengah h2 a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#content #tengah h2 a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#content #tengah h2 a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+#content #tengah h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color:#FFF;
+    text-align: right;
+    padding: 2px 0;
+    margin: 2px 0 0 0;
+    border-top: 1px dotted #ffffcc;
+    border-bottom: 1px dotted #ffffcc;
+    clear: both;
+}
+#content #tengah h3 a:link {
+    color:#FFFF00;
+}
+#content #tengah .date {
+    line-height: 110%;
+    font-size: 10px;
+}
+#content #tengah .subjudul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 130%;
+    font-size: 12px;
+    font-weight: bold;
+    color:#FFFF00;
+}
+#content #tengah .judul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: bold;
+}
+#content #tengah .image {
+    padding: 2px;
+    margin: 4px 5px 0 0;
+    border: 1px solid #8787f9;
+    float: left;
+}
+#content #tengah .inputsubmit {
+    width: 50px;
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #003399;
+    border: 1px solid #999;
+    margin: 3px 0;
+    padding: 1px 0;
+    clear: both;
+}
+#content #tengah a:link {
+    text-decoration: none;
+    color:#ffff47;
+}
+#content #tengah a:visited {
+    text-decoration: none;
+    color: #ffff47;
+}
+#content #tengah a:hover {
+    text-decoration: underline;
+    color:#FFF;
+}
+/* detikfoto */
+#content #tengah #detikfoto {
+    text-align: center;
+    padding: 0 0 5px 0;
+    margin: 0 0 1px 0 ;
+    border: 1px solid #8787f9;
+    clear: both;
+}
+#content #tengah #detikfoto .fotonya {
+    background-color: #FFF;
+    padding: 5px 0;
+    margin: 0 0 5px 0;
+    clear: both;
+}
+#content #tengah #detikfoto h4 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color:#FFF;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px 0;
+    padding: 2px 10px;
+    border-bottom: 1px solid #8787f9;
+    border-top: 1px solid #8787f9;
+    clear: both;
+}
+#content #tengah #detikfoto ul {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+#content #tengah #detikfoto ul li {
+    display: inline;
+    margin: 0;
+    padding: 2px 5px;
+    text-align: center;
+    clear:both;
+}
+#content #tengah #contenttengah01 {
+    text-align: left;
+    padding: 3px 0;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #tengah #contenttengah02 {
+    text-align: left;
+    padding: 3px 0;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+
+#content #tengah #contenttengah03 {padding: 0;margin: 1px 0 0 0; border: 1px solid #6fc257;clear: both;}
+#content #tengah #contenttengah03 .pertanyaan {font-weight: bold; background-color:#339900;padding: 5px 10px;margin: 0;}
+#content #tengah #contenttengah03 .pilihan {color: #000;font-weight: bold;background-color:#33ff33;padding: 1px 5px; margin: 0;}
+#content #tengah #contenttengah03 .kirim { text-align: center;background-color: #339900; padding: 5px 10px; margin: 0;}
+#content #tengah #contenttengah03 .inputsubmit {color:#fff;background-color:#e00; border: 1px solid #fff5ed;}
+#content #tengah #contenttengah03 .teksnya {font-size: 12px;color: #fff;background-color:#FF0000; padding: 10px;margin: 0 0 3px 0;}
+
+#content #tengah #contenttengah04 {
+    text-align: left;
+    padding: 3px 0;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #tengah #contenttengah05 {
+    text-align: center;
+    padding: 0;
+    margin: 1px 0 10px 0;
+    border: 0;
+    border: 1px solid #8787f9;
+    clear: both;
+}
+#content #tengah #contenttengah05 .pertanyaan {
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    background-color:#53bcff;
+    padding: 5px;
+    margin: 0;
+    clear: both;
+}
+#content #tengah #contenttengah05 .pilihan {
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    background-color:#b3e2ff;
+    padding: 1px 5px;
+    margin: 0;
+    clear: both;
+}
+#content #tengah #contenttengah05 .kirim {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background-color: #53bcff;
+    padding: 3px 5px;
+    margin: 0;
+    clear: both;
+}
+#content #tengah #contenttengah05 .inputsubmit {
+    color:#FFF;
+    background-color:#EE0000;
+    border: 1px solid #fff5ed;
+}
+#content #tengah #contenttengah05 .teksnya {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    line-height: 130%;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: left;
+    background-color:#FF0000;
+    padding: 10px;
+    margin: 0 0 3px 0;
+}
+#content #tengah #contenttengah06 {
+    text-align: left;
+    padding: 0;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #tengah #contenttengah06 ul {
+    padding: 0 0 4px 15px;
+    margin: 0;
+    clear: both;
+}
+#content #tengah #contenttengah06 ul li {
+    padding: 2px 0;
+    margin: 0;
+    list-style-type: square;
+    list-style-position: outside;
+    clear: both;
+}
+#content #tengah .bannerC1 {
+    text-align: center;
+    /*padding: 10px 5px;*/
+    padding: 0 0 5px;
+    margin: 5px 0 25px 0;
+    /*border: 1px solid #8787f9;*/
+    clear: both;
+}
+
+/*KANAN */
+#content #kanan {
+    width: 306px;
+    padding: 14px 12px 10px 14px;
+    margin: 0;
+    float: left;
+}
+html>body #content #kanan {
+    width: 280px;
+}
+#content #kanan h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #EE0000;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 0;
+    margin: 22px 0 0 0;
+    border-top: 3px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+#content #kanan h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #006600;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 0;
+    margin: 20px 0 0 0;
+    border-top: 3px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+#content #kanan h2 a:link {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kanan h2 a:visited {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kanan h2 a:hover {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kanan h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    padding: 1px 0 2px 0;
+    margin: 0;
+    border-bottom: 1px dotted #cccccc;
+    clear: both;
+}
+
+#content #kanan #detikfoto h3 {text-align: center;padding: 1px 0 2px 0; margin: 0; border-bottom: 1px dotted #ccc;}
+
+#content #kanan h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #1e8a00;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 2px 0;
+    border-bottom: 1px dotted #cccccc;
+    clear: both;
+}
+#content #kanan h4 a:link {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kanan h4 a:visited {
+    color: #006600;
+    text-decoration: none;
+}
+#content #kanan .date {
+    line-height: 110%;
+    font-size: 10px;
+}
+#content #kanan .subjudul {
+    line-height: 110%;
+    font-size: 11px;
+    color: #ff6600;
+}
+#content #kanan .judul {
+    font-size: 12px;
+}
+#content #kanan .image {
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin: 3px 5px 3px 0px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+#content #kanan .input {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #cccccc;
+    margin: 6px 0 0 0;
+    padding: 2px 0;
+    clear: both;
+}
+#content #kanan .inputsubmit {
+    width: 50px;
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #543699;
+    border: 1px solid #543699;
+    margin: 3px 0;
+    padding: 1px 0;
+    clear: both;
+}
+
+#content #kanan .bannerD0 {padding: 0px;margin: 5px 0 25px 0;clear: both;}
+#content #kanan .bannerD1 { padding: 0px; margin: 22px 0 0 0;clear: both;}
+
+/* video */
+#content #kanan #video {
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 0;
+    margin: 20px 0 15px 0;
+    border-top: 3px solid #cccccc;
+    clear: both;
+}
+#content #kanan #video .videonya {
+    background-image: url(../image/bgvideo.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    text-align: left;
+    padding: 14px 0 50px 13px;
+    margin: 0;
+    clear: both;
+}
+#content #kanan #video .judulnya {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px 0 3px 10px;
+    margin: 0 0 1px 0;
+    border: 1px solid #cccccc;
+    border-top: 0;
+    clear: both;
+}
+#content #kanan #video ul {
+    padding: 0 0 0 18px;
+    margin: 0;
+    clear: both;
+}
+#content #kanan #video ul li {
+    padding: 2px 0;
+    margin: 0;
+    list-style-type: none;
+    list-style-image: url(../image/panahpop1.gif);
+    list-style-position: outside;
+    clear: both;
+}
+/* KLASEMEN */
+#klasemen {
+    text-align: left;
+    padding: 4px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#klasemen .c1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF0000;
+}
+#klasemen .c2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #221e1f;
+}
+#klasemen .c3 {
+    background-color: #fddede;
+}
+#klasemen .c4 {
+    background-color: #e9e8e6;
+}
+#klasemen .c5 {
+    background-color: #F00;
+    font-weight: bold;
+    color: #FFF;
+}
+/* TOPSKORER */
+#topskorer {
+    text-align: left;
+    padding: 4px 0 4px 4px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#topskorer .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#topskorer .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#topskorer .c2 {
+    color:#FFF;
+}
+#topskorer .c2 {
+    color:#FFF;
+}
+#topskorer .c2  {
+    color:#FFF;
+}
+#topskorer .c3 {
+    background-color: #e1ffdf;
+    color: #000;
+}
+#topskorer .c4 {
+    background-color:#bcfbb8;
+    color:#000;
+}
+#topskorer .c5 {
+    background-color:#009900;
+    color:#FFF;
+}
+
+/* JADWAL */
+#jadwal {
+    text-align: left;
+    padding: 4px 0 4px 4px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#jadwal a {
+    color: #000099;
+}
+#jadwal .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#jadwal .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#jadwal .c2 a:link {
+    color:#FFF;
+}
+#jadwal .c2 a:visited {
+    color:#FFF;
+}
+#jadwal .c2 a:hover {
+    color:#FFF;
+}
+#jadwal .c3 {
+    background-color: #dffffc;
+    color: #000;
+}
+#jadwal .c4 {
+    background-color:#b7f2ff;
+    color:#000;
+}
+#jadwal .c5 {
+    background-color:#0000FF;
+    color:#FFF;
+}
+/* hasil */
+#content #kanan #hasil {
+    text-align: left;
+    padding: 4px 4px 4px 4px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kanan #hasil a {
+    color:#FF6600;
+}
+#content #kanan #hasil .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#content #kanan #hasil .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#content #kanan #hasil .c2 a:link {
+    color:#FFF;
+}
+#content #kanan #hasil .c2 a:visited {
+    color:#FFF;
+}
+#content #kanan #hasil .c2 a:hover {
+    color:#FFF;
+}
+#content #kanan #hasil .c3 {
+    background-color: #fffcdf;
+    color: #000;
+}
+#content #kanan #hasil .c4 {
+    background-color: #ffd4ba;
+    color:#000;
+}
+#content #kanan #hasil .c5 {
+    background-color:#FF6600;
+    color:#FFF;
+}
+/* siaranlangsung */
+#content #kanan #siaranlangsung {
+    text-align: left;
+    padding: 4px 0 4px 4px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kanan #siaranlangsung .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#content #kanan #siaranlangsung .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#content #kanan #siaranlangsung .c2 a:link {
+    color:#FFF;
+}
+#content #kanan #siaranlangsung .c2 a:visited {
+    color:#FFF;
+}
+#content #kanan #siaranlangsung .c2 a:hover {
+    color:#FFF;
+}
+#content #kanan #siaranlangsung .c3 {
+    background-color: #ffdfdf;
+    color: #000;
+}
+#content #kanan #siaranlangsung .c4 {
+    background-color: #fba5a5;
+    color:#000;
+}
+#content #kanan #siaranlangsung .c5 {
+    background: #F00;
+    color:#FFF;
+}
+
+/* CONTENT DALAM */
+#content #kiriisi {
+    width: 327px;
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    line-height: 130%;
+    font-size: 12px;
+    text-align: left;
+    padding: 14px 14px 0 13px;
+    margin: 0;
+    border-top: 1px solid #cccccc;
+    float: left;
+}
+html>body #content #kiriisi {
+    width: 300px;
+}
+#content #kiriisi h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #006600;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 0;
+    margin: 20px 0 1px 0;
+    border-top: 3px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+#content #kiriisi h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #003399;
+    text-align: right;
+    padding: 3px 0;
+    margin: 1px 0 10px 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px dotted #cccccc;
+    clear: both;
+}
+#content #kiriisi .bannerB1 {
+    width: 300px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    clear: both;
+}
+#content #kiriisi .bannerB2 {
+    width: 300px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    clear: both;
+}
+#content #kiriisi .bannerB3 {
+    width: 300px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    clear: both;
+}
+#content #kiriisi .bannerB4 {
+    width: 300px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    clear: both;
+}
+#content #kiriisi .bannerB5 {
+    width: 300px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    clear: both;
+}
+#content #kiriisi .date {
+    font-size: 10px;
+    color: #666666;
+}
+#content #kiriisi .subjudul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    line-height: 120%;
+    color: #EE0000;
+    font-weight: bold;
+}
+#content #kiriisi .judul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+
+#content #kiriisi #beritalain {
+    padding: 5px 20px;
+    margin: 1px 0 0 0;
+    clear: both;
+}
+#content #kiriisi #beritalain ul {
+    padding: 0 10px 0 25px;
+    margin: 0;
+    clear: both;
+}
+#content #kiriisi #beritalain ul li {
+    padding: 3px 0;
+    margin: 0;
+    list-style-type: square;
+    list-style-position: outside;
+    color: #666666;
+    clear: both;
+}
+
+#content #kananisi {
+    width: 571px;
+    padding: 15px 12px 5px 0;
+    margin: 0;
+    border-top: 1px solid #cccccc;
+    float: left;
+}
+html>body #content #kananisi {
+    width: 559px;
+}
+#content #kananisi #isiberita {
+    background-color: #f6f9fd;
+    background-image: url(../image/bgisiberita3.gif);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    text-align: left;
+    padding: 18px 16px 20px 20px;
+    margin: 0 0 10px 0;
+    border: 1px solid #cccccc;
+    min-height: 960px;
+    clear: both;
+}
+#content #kananisi #isiberita .tower {
+    padding: 0;
+    margin: 0 ;
+    width: auto;
+    float: right;
+}
+#content #kananisi #isiberita .petunjuk {
+    text-align: right;
+    font-weight: bold;
+    padding: 1px 0;
+    margin: 0 0 22px 0;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita .illustrasi {
+    background-color: #fff;
+    padding: 3px;
+    margin: 0 5px 0 0;
+    border: 1px solid #cccccc;
+    float: left;
+}
+#content #kananisi #isiberita .keterangan {background-color: #fff;padding: 8px;margin: 15px 0 20px 0;border: 1px solid #ccc;clear: both;}
+#content #kananisi #isiberita .alamat {margin:25px 0;clear: both;}
+#content #kananisi #isiberita .tabletim {
+    font-size: 11px;
+    text-align: left;
+}
+#content #kananisi #isiberita h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    padding: 0px;
+    margin: 20px 0 5px 0;
+    border-bottom: 1px dotted #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita a:link {
+    text-decoration: none;
+    color: #0000a2;
+}
+#content #kananisi #isiberita a:visited {
+    text-decoration: none;
+    color: #0000a2;
+}
+#content #kananisi #isiberita a:hover {
+    text-decoration: underline;
+    color: #EE0000;
+}
+#content #kananisi #isiberita p {
+    padding: 2px 0;
+    margin: 0px;
+    clear: both;
+}
+#content #kananisi #isiberita .player {
+    text-align: center;
+    padding: 0;
+    margin: 6px 20px 6px 0;
+    border: 0px solid #8d6baf;
+    clear: both;
+}
+#content #kananisi #isiberita .input {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #cccccc;
+}
+#content #kananisi #isiberita .comentteks {
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #cccccc;
+    width: 400px;
+}
+#content #kananisi #isiberita .inputsubmit {
+    font-family: Arial, Helvetica-Normal, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #003300;
+    border: 1px solid #003300;
+    margin: 0 0 1px 3px;
+    width: 120px;
+}
+#content #kananisi #isiberita ul {
+    padding: 0 0 10px 0;
+    margin: 0;
+    clear: both;
+}
+#content #kananisi #isiberita ul li {
+    padding: 2px;
+    margin: 0 0 0 33px;
+    list-style-type: square;
+    list-style-position: outside;
+    clear: both;
+}
+#content #kananisi #isiberita .date {
+    font-size: 10px;
+}
+#content #kananisi #isiberita .subjudul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 120%;
+    color: #ee0000;
+}
+#content #kananisi #isiberita .judul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+    line-height: 120%;
+    color: #dd0000;
+}
+#content #kananisi #isiberita .reporter {
+    color: #006600;
+}
+
+#content #kananisi #isiberita #multimedialink {width: 158px;text-align: left;background-color: #fff;padding: 3px;margin: 3px 5px 0 0;border: 1px solid #e2e2e2;float: left;}
+html>body #content #kananisi #isiberita #multimedialink {width: 150px;}
+#content #kananisi #isiberita #multimedialink h2 {font-size: 10px;color: #fff;text-align: center;background-color: #e00;padding: 3px 10px;margin: 0;clear: both;}
+#content #kananisi #isiberita #multimedialink h3 {color: #fff;font-size: 10px;text-align: left;background-color: #09c;padding: 1px 8px;margin: 0;border: 1px solid #09c;clear: both;}
+#content #kananisi #isiberita #multimedialink .fotoisi {background-color: #eff8ff;padding: 2px 0 4px 0;margin: 0;border: 1px solid #ccc; text-align:left !important; clear: both;}
+#content #kananisi #isiberita #multimedialink .videoisi {background-color: #eff8ff;padding: 2px 0 4px 0;margin: 0;border: 1px solid #ccc; text-align:left !important; clear: both;}
+#content #kananisi #isiberita #multimedialink .audioisi {background-color: #eff8ff;padding: 2px 0 4px 0;margin: 0;border: 1px solid #ccc; text-align:left !important; clear: both;}
+#content #kananisi #isiberita #multimedialink .image {background-color: #fff;padding: 1px;margin: 1px 1px 0 3px;float: left;}
+html>body #content #kananisi #isiberita #multimedialink .image {margin: 3px 5px 20px 5px;}
+#content #kananisi #isiberita #multimedialink .subjudul {font-size: 11px; font-weight: bold;color: #009900; text-align:left !important;}
+#content #kananisi #isiberita #multimedialink .judul {font-size: 12px; font-weight: bold;line-height: 120%; text-align:left !important;}
+
+
+/* KLASEMEN */
+#klasemen {
+    text-align: left;
+    padding: 1px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#klasemen .c1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF0000;
+}
+#klasemen .c2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #221e1f;
+}
+#klasemen .c3 {
+    background-color: #fddede;
+}
+#klasemen .c4 {
+    background-color: #e9e8e6;
+}
+#klasemen .c5 {
+    background-color: #F00;
+    font-weight: bold;
+    color: #FFF;
+}
+/* hasil */
+#hasil {
+    text-align: left;
+    padding: 1px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#hasil a {
+    color:#FF6600;
+}
+#hasil .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#hasil .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#hasil .c2 a:link {
+    color:#FFF;
+}
+#hasil .c2 a:visited {
+    color:#FFF;
+}
+#hasil .c2 a:hover {
+    color:#FFF;
+}
+#hasil .c3 {
+    background-color: #fffcdf;
+    color: #000;
+}
+#hasil .c4 {
+    background-color: #ffd4ba;
+    color:#000;
+}
+#hasil .c5 {
+    background-color:#FF6600;
+    color:#FFF;
+}
+/* JADWAL */
+#jadwal {
+    text-align: left;
+    padding: 2px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#jadwal a {
+    color: #000099;
+}
+#jadwal .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#jadwal .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#jadwal .c2 a:link {
+    color:#FFF;
+}
+#jadwal .c2 a:visited {
+    color:#FFF;
+}
+#jadwal .c2 a:hover {
+    color:#FFF;
+}
+#jadwal .c3 {
+    background-color: #dffffc;
+    color: #000;
+}
+ #jadwal .c4 {
+    background-color:#b7f2ff;
+    color:#000;
+}
+#jadwal .c5 {
+    background-color:#0000FF;
+    color:#FFF;
+}
+/* TOPSKORER */
+#content #kananisi #isiberita #topskorer {
+    text-align: left;
+    padding: 2px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita #topskorer .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fff;
+}
+#content #kananisi #isiberita #topskorer c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#content #kananisi #isiberita #topskorer c2 {
+    color:#FFF;
+}
+#content #kananisi #isiberita #topskorer c2 {
+    color:#FFF;
+}
+#content #kananisi #isiberita #topskorer c3 {
+    background-color: #e1ffdf;
+    color: #000;
+}
+#content #kananisi #isiberita #topskorer .c4 {
+    background-color:#bcfbb8;
+    color:#000;
+}
+#content #kananisi #isiberita #topskorer .c5 {
+    background-color:#009900;
+    color:#FFF;
+    font-weight: bold;
+}
+/* siaranlangsung */
+#siaranlangsung {
+    text-align: left;
+    padding: 2px;
+    margin: 1px 0 0 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#siaranlangsung .c1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #E00;
+}
+#siaranlangsung .c2 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #221e1f;
+}
+#siaranlangsung .c2 a:link {
+    color:#FFF;
+}
+#siaranlangsung .c2 a:visited {
+    color:#FFF;
+}
+#siaranlangsung .c2 a:hover {
+    color:#FFF;
+}
+#siaranlangsung .c3 {
+    background-color: #ffdfdf;
+}
+#siaranlangsung .c4 {
+    background-color: #fdc7c7;
+}
+#siaranlangsung .c5 {
+    background: #F00;
+    color:#FFF;
+    font-weight: bold;
+}
+
+#content #kananisi #isiberita .comment {
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0d6d00;
+    background-image: url(../image/cmnt_bg.gif);
+    background-repeat: repeat-x;
+    margin: 1px 0 1px 0;
+    padding: 7px 9px;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita .commentbar {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #d0d6de;
+    background-image: url(../image/cmnt_bar.gif);
+    background-repeat: repeat-x;
+    height: 30px;
+    padding: 0 0 0 15px;
+    margin: 5px 0 0 0;
+}
+#content #kananisi #isiberita .commentbar img {
+    float: left;
+    padding: 2px 0 5px 5px;
+    border: 0;
+}
+#content #kananisi #isiberita .commenttext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    clear: right;
+    width: auto;
+    float: left;
+    vertical-align: middle;
+    padding: 6px 50px 10px 5px;
+}
+#content #kananisi #isiberita .commenttext a:link {
+    color: #000000;
+    text-decoration: none;
+}
+#content #kananisi #isiberita .commenttext a:hover {
+    color: #EE0000;
+    text-decoration: underline;
+}
+#content #kananisi #isiberita .commenttext a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+#content #kananisi #isiberita .commentdetails {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 6px 9px;
+    border: 1px solid #cccccc;
+}
+#content #kananisi #isiberita .commentdetails2 {
+    background-color: #f2eefc;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+#content #kananisi #isiberita .disclaimer {
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid #9f79bf;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    width: 75px;
+    margin: 5px;
+    float: right;
+}
+/* css tambahan buat comment akhir*/
+
+#content #kananisi #isiberita .issue {
+    text-decoration: underline;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #000099;
+    text-align: left;
+}
+#content #kananisi #isiberita .inputteks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    background-color: #f4f4f9;
+    width: 450px;
+    border: 1px solid #666699;
+}
+#content #kananisi #isiberita .bottomteks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #003399;
+    width: 60px;
+    padding: 0;
+    margin: 5px 0 0 0;
+    border: 1px solid #003399;
+}
+#content #kananisi #isiberita .diprint {
+    font-weight: bold;
+    line-height: 100%;
+    margin: 0;
+    padding: 3px 15px;
+    text-align: right;
+    clear: both;
+}
+#content #kananisi #isiberita .linklain {
+    color: #3333cc;
+    text-align: center;
+    padding: 5px 0;
+    margin: 3px 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita #bannerE {
+    height: 125px;
+    padding: 10px 0;
+    margin: 27px 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita #bannerE .bannerE1 {
+    text-align: center;
+    width: 210px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#content #kananisi #isiberita #bannerE .bannerE2 {
+    text-align: center;
+    width: 305px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#content #kananisi #isiberita .permintaan {
+    padding: 10px;
+    margin: 30px 0 10px 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #isiberita .paging {
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    background-color: #eaf0f2;
+    margin: 0 0 10px 0;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+#content #kananisi #caridata {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 10px 0 5px 0;
+    padding: 6px 10px;
+    border: 1px solid #9f79bf;
+    clear: both;
+}
+
+/* FOOTER ----------------------------------------------*/
+#footer {
+    width: 900px;
+    height: 130px;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid #cccccc;
+    clear: both;
+}
+html>body #footer {
+    width: 898px;
+}
+#footer a:link {
+    color: #000066;
+    text-decoration: none;
+}
+#footer a:visited {
+    color: #000066;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #EE0000;
+    text-decoration: underline;
+}
+#footer #menu0 {
+    font-family: Tahoma, Arial, Helvetica-Normal, sans-serif;
+    font-size: 11px;
+    color: #ccccff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #0000a2;
+    margin: 0px;
+    padding: 5px 0px;
+    clear: both;
+    }
+#footer #menu0 a:link {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer #menu0 a:visited {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer #menu0 a:hover {
+    color: #FFFF00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#footer .menu1 {
+    font-family: Tahoma, Arial, Helvetica-Normal, sans-serif;
+    font-size: 11px;
+    color: #333399;
+    text-align: center;
+    background-color: #c7d9ef;
+    padding: 3px 10px;
+    margin: 0px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #a1bfe2;
+    clear: both;
+}
+#footer .menu2 {
+    font-family: Tahoma, Arial, Helvetica-Normal, sans-serif;
+    font-size: 11px;
+    color: #333399;
+    text-align: center;
+    background-color: #c7d9ef;
+    padding: 2px 10px;
+    margin: 0px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #a1bfe2;
+    clear: both;
+}
+#footer .menu3 {
+    font-family: Tahoma, Arial, Helvetica-Normal, sans-serif;
+    font-size: 11px;
+    color: #333399;
+    text-align: center;
+    background-color: #c7d9ef;
+    padding: 2px 10px;
+    margin: 0px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #a1bfe2;
+    clear: both;
+}
+#footer .menu4 {
+    width: 730px;
+    font-family: Tahoma, Arial, Helvetica-Normal, sans-serif;
+    font-size: 11px;
+    color: #333399;
+    text-align: left;
+    margin: 0px;
+    padding: 15px 0px 0px 10px;
+    float: left;
+}
+html>body #footer .menu4 {
+    width: 720px;
+}
+#footer .logo {
+    width: 166px;
+    text-align: right;
+    margin: 0px;
+    padding: 8px 10px 4px 0px;
+    float: left;
+}
+html>body #footer .logo {
+    width: 156px;
+}
+#bannerhover {
+    top: 168px;
+    bottom: none;
+    position: fixed;
+    _position:absolute;
+    _top:expression(eval(document.body.scrollTop+168));
+}
+#footerbanner {
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 0px;
+    height: 62px;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+     _position:absolute;
+      _top:expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+}
+html>body #footerbanner { margin-bottom: 0px; bottom: 0 }
+
+#forumhead {
+    height: 22px;
+    padding: 5px 0 4px 0;
+    margin: 0;
+    border-top: 3px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+}
+html>body #forumhead {
+    height: 16px;
+}
+#forumhead .logo {
+    width: 150px;
+    font: bold 13px/100% Georgia, "Times New Roman", Times, serif;
+    color: #E00;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#forumhead .headmenu {
+    width: 130px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+    color: #BFBFBF;
+    text-align: right;
+    padding: 1px 0 0 0;
+    margin: 0;
+    float: right;
+}
+#detikforum {
+    color: #fff;
+    background-color: #ff0000 !important;
+    background-image: url(../image/bgforumwp3.gif);
+    background-repeat: repeat-x;
+    background-position: 0px -25px;
+    padding: 10px 10px;
+    margin: 2px 0 25px 0;
+    clear: both;
+}
+#detikforum .image {
+    background-color: #fff;
+    padding: 2px;
+    margin: 3px 5px 3px 0px;
+    border: 1px solid #ccc;
+    float: left;
+}
+#detikforum a:link, #detikforum a:visited {
+    color: #ff0 !important;
+}
+#detikforum a:hover {
+    color: #fff !important;
+}
+ #detikforum .date {
+    padding: 8px 0 0 0;
+    margin: 0;
+    color: #fff !important;
+    font-size: 10px;
+    clear: none;
+}
+#detikforum h3 {
+    text-align: left !important;
+    font-size: 14px !important;
+    line-height: 120% !important;
+    border: 0 !important;
+    margin: 0 !important;
+    clear: none !important;
+}
+#detikforum h4 {
+    font-size: 13px !important;
+    color: #fff !important;
+}
+#detikforum h5 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    padding: 3px 0 0 0;
+    margin: 0;
+    border: 0;
+    clear: both;
+}
+#detikforum ul {
+    padding: 0 0 0 24px;
+    margin: 0;
+    clear: both;
+}
+#detikforum ul li {
+    padding: 1px 0;
+    margin: 0;
+    list-style-type: square;
+    list-style-position: outside;
+    clear: both;
+}
+#detikforum ul li .date {
+    padding: 0;
+    color: #fff !important;
+}
+#detikforum ul li h3 {
+    font-size: 13px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#content #kananisi #isiberita .googleads {
+    text-align:center;
+    padding: 0;
+    margin: 10px 0 20px 0;
+    clear: both;
+}
+
+.bannerBCD {text-align: center;margin: 0;padding: 10px 3px;clear: both;border-top: 1px solid #ccc;}
+.bannerBCD .bannerbcd1 {width:297px; text-align: center;margin: 0;padding: 0;float:left;}
+.bannerBCD .bannerbcd2 {width:297px; text-align: center;margin: 0;padding: 0;float:left;}
+.bannerBCD .bannerbcd3 {width:297px; text-align: center;margin: 0;padding: 0;float:left;}
+
+/* Banner Tengah */
+.bannerC1 {text-align: center;padding: 0;margin: 0 0 25px 0;clear: both;}
+.bannerC2 {text-align: center;padding: 0;margin: 25px 0;clear: both;}
+.bannerC3 {text-align: center;padding: 0;margin: 25px 0;clear: both;}
+
+/* Twitter Widget */
+#twitter {margin: 25px 0 10px;}
+#twitter h2 {font: inherit !important;border: none !important;}
+#twitter h3 {font: inherit !important;border: none !important;text-align: inherit !important}
+/* Facebook Widget */
+#facebook {margin: 25px 0;}
+
+.umpansilang {padding: 0;margin: 0;clear: both;}
+.manofthematch {padding: 0;margin: 0;clear: both;}
+.gibol {padding: 0;margin: 0;clear: both;}
+.fansarea {padding: 0;margin: 0;clear: both;}
+
+#content #tengah h2 .yellow {border-top: 2px solid #ff6;border-bottom: 1px solid #ff6;background:#ff0;color: #069;padding:3px 5px;}
+.subjudul { color: #fff;}
+.beritapop {padding: 0;margin: 1px 0 0 0;clear: both;}
+.beritapop ul {padding: 0 0 0 15px;margin: 0;}
+.beritapop ul li {padding: 3px 0;margin: 0;list-style-type: square;list-style-position: outside;color: #ccffff;}
+.komentarpop {padding: 0;margin: 1px 0 0 0clear: both;}
+.komentarpop ul {padding: 0 0 0 15px;margin: 0;}
+.komentarpop ul li {padding: 3px 0;margin: 0;list-style-type: square;list-style-position: outside;color: #ccffff;}
+
+.adnews {padding: 4px 0 0 0;margin: 1px 0 0 0;clear: both;}
+
+#tengah .date {color: #fff;}
+#prokontra {padding: 5px;margin:0;border: 1px solid #8787f9;clear: both;}
+#prokontra .date {color: #fff;}
+#prokontra h3 {font-size: 15px !important;text-transform: capitalize !important;text-align: left !important;border: 0 !important;margin: 3px 0 !important;line-height: 130% !important;}
+#prokontra .image {background-color: #fff;padding: 2px;margin: 3px 5px 3px 0;border: 1px solid #fff;}
+#prokontra .pendapat {background-color: #f60;padding: 5px 8px 1px 8px;margin: 0;}
+#prokontra .linkkoment {text-align: center;background-color: #f93;padding: 3px 8px;margin: 0;clear: both;}
+#prokontra .user {font-size:12px;background-color: #fff;padding: 1px 5px;margin: 2px; -moz-border-radius: 3px; -webkit-border-radius: 3spx;}
+#prokontra .lihatlink {width: 160px;text-align: center;color: #fff;text-transform: uppercase;background-color: #00c;border: 1px solid #fff;border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px;margin: 1px;padding: 2px 6px;}
+#prokontra a:link, #content #tengah #prokontra a:visited {color: #ff0;}
+#prokontra a:hover {color: #fff;}
+#prokontra ul {padding: 5px 0 5px 0;margin: 0 0 5px 0;clear: both;}
+#prokontra ul li {font-size:11px;color: #000;margin: 1px;padding: 2px 4px;list-style-type: none;background-color: #fc0;}
+
+#prokontraindex {margin: 0px;padding: 0px;}
+#prokontraindex ul {padding: 0;margin: 0;}
+#prokontraindex ul li {padding: 8px 0;margin: 0;list-style-type: none !important;}
+#prokontraindex .judul {font-size:20px !important;}
+#prokontraindex .subjudul {font-size:15px !important; color:#060 !important;}
+#prokontraindex .image { border:1px solid #ccc; padding:2px; margin:2px 6px 0 0; float:left;}
+#prokontraindex .kontraid {padding:2px 6px; background-color:#e00; color:#fff;}
+#prokontraindex .proid {padding:2px 6px; background-color:#090; color:#fff;}
+
+.viewprokontra {width: 400px;height: 35px;font-weight: bold;margin: 4px 0 20px 0;padding: 10px;position: relative;clear: both;font-size: 13px;background: #f6f6f6;border: 1px solid #ccc;}
+html>body .viewprokontra {width: 318px;}
+.viewpro {width: 52px;height: 13px;color: #009900;float: left;}
+.jmlpro {width: 40px;height: 13px;float: left;}
+.persenpro {width: 30px;height: 13px;float: left;}
+.barpro {width: 193px;height: 13px;margin: 0;padding: 4px 0;float: left;}
+.viewkontra {width: 52px;height: 13px;color: #e00;float: left;}
+.jmlkontra {width: 40px;height: 13px;float: left;}
+.persenkontra {width: 30px;height: 13px;float: left;}
+.barkontra {width: 193px;height: 13px;margin: 0;padding: 2px 0 0 0;float: left;}
+#kananisi #isiberita h5 {padding:0;margin:25px 0 5px 0;border-bottom: 1px solid #ccc;font-size: 18px;font-weight: normal;text-transform: capitalize;color: #e00;}
+#headkomentar {padding:0;margin:25px 0 5px 0;border-bottom: 1px solid #ccc;font-size: 18px;font-weight: normal;text-transform: capitalize;color: #009;}
+
+/* siaranlangsung */
+.siaranlangsung {padding: 4px 0 4px 4px;margin: 1px 0 0 0;border: 1px solid #ccc;clear: both;}
+.siaranlangsung a {color:#fff !important;}
+.siaranlangsung .c1 {font-weight: bold;color: #fff;background-color: #000;}
+.siaranlangsung .c2 {font-weight: bold;color: #fff;background-color: #660000;}
+.siaranlangsung .c2 a:link {color:#fff !important;}
+.siaranlangsung .c2 a:visited {color:#fff !important;}
+.siaranlangsung .c2 a:hover {color:#fff !important;}
+.siaranlangsung .c3 {background-color: #ff3333;color: #fff;}
+.siaranlangsung .c4 {background-color:#900;color:#fff;}
+
+/* Berita Lain */
+#content #kananisi #isiberita .bacajuga {padding:0;margin:20px 0; border: 1px solid #ccc;clear: both;}
+#content #kananisi #isiberita .bacajuga h4 {font-size:14px;color:#fff;background-color:#e00;padding:2px 13px;margin:0;border-bottom: 1px solid #600;text-transform: capitalize;}
+#content #kananisi #isiberita iframe { clear:both;}
+#content #kananisi #isiberita .diurutkan {padding:3px 0;margin:2px 0; font-weight: bold;clear: both;}
+#content #kananisi #isiberita .diurutkan .input { font-size: 12px; width: 250px}
+#content #kananisi #isiberita .beritalainparent {padding:0;margin:25px 0;clear: both;}
+#content #kananisi #isiberita .beritalainparent .date { color:#666;}
+#content #kananisi #isiberita .beritalainparent a:link, #content #kananisi #isiberita .beritalainparent a:visited {color: #036 !important;}
+#content #kananisi #isiberita .beritalainparent a:hover {color: #e00 !important;}
+#content #kananisi #isiberita .beritalainparent h3 {text-align:left;text-transform: capitalize;font-size: 13px; color: #fff;background-color:#e00; padding:3px 13px; margin:0;}
+#content #kananisi #isiberita .beritalainparent h3 a:link, #content #kananisi #isiberita .beritalainparent h3 a:visited {color: #fff !important;}
+#content #kananisi #isiberita .beritalainparent h3 a:hover {color: #ff0 !important;}
+#content #kananisi #isiberita .beritalainparent ul {margin: 8px 10px 8px 13px;padding: 0;clear:both;}
+#content #kananisi #isiberita .beritalainparent ul li {margin:0;padding: 3px 0;border-bottom: 1px dashed #ccc;color: #009;list-style-position: inside;height: 55px;overflow:hidden;}
+#content #kananisi #isiberita .beritalainparent .beritalainchild1 {padding:0;margin: 0;height:auto;border: 1px solid #ccc;width:48%;float:left;background: #fff;}
+#content #kananisi #isiberita .beritalainparent .beritalainchild2 {padding:0;margin: 0;height:auto;border: 1px solid #ccc;width:48%;background: #fff;float:right;}
+#content #kananisi #isiberita .beritalainparent .beritalainchild2 img {border: none;margin-bottom:10px;margin-right: 10px;}
+#content #kananisi #isiberita .beritalainparent .beritalainchild2 .judul {font-family:Georgia, "Times New Roman", Times, serif;font-size: 16px;font-weight: normal;}
+#content #kananisi #isiberita .beritalainparent .beritalainchild2.button, #content #kananisi #isiberita .beritalainparent .beritalainchild2.red {padding :0; background: #090; color: white; border:0; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;  margin-left:0;}
+#content #kananisi #isiberita .beritalainparent .beritalainchild2.red {background: #f00; margin-left:2px;}
+
+/* Banner dan adPoint article */
+#adpoint-article {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;padding: 6px 0;margin: 25px 0 0; clear:both;}
+#adpoint-article img { margin: 0 1px;border: none;}
+#content .small, #content #kananisi #arsip  a.small, #content #kananisi #isiberita.rumor .small { font-size:10px; text-decoration:none; margin:0 5px 0 0; float:none}
+
+.bannertopnews {width: 900px;background-color: #fff;margin: auto;padding: 7px 0;border: 1px solid #ccc;border-bottom: 0;clear: both;}
+html>body .bannertopnews { width:898px;}
+.bannertopnews .topnewsleft {text-align:right;width: 445px;margin: 0;padding: 0;float: left;}
+.bannertopnews .topnewsright {text-align:left;width: 445px;margin: 0;padding: 0;float: right;}
+
+/* Recommended Reading */
+#block_bawah {padding:5px 0 10px 10px;color: #000;background-color: #999;border-top: 1px solid #999;}
+#block_bawah .title {font: 18px Georgia, serif;color: #fff; margin-bottom: 7px;}
+#block_bawah h2 a:link, #block_bawah h2 a:visited {color: #039;}
+#block_bawah h2 a:hover {color: #f30;}
+#block_bawah h3 {color: #f00;padding: 0;font-size: 11px;text-transform: lowercase;}
+#block_bawah h2 {font-weight:normal;font-size: 14px;line-height: 100%;text-transform: capitalize;padding: 0;margin: 0;}
+#block_bawah .clear {clear: both;}
+#block_bawah .artikel_rec {float:left;display: inline;width:285px;padding: 10px 10px 0;margin: 0 10px 0 0;border: 1px solid #ffffff;-moz-border-radius: 3px;background-color: #fff;}
+html>body #block_bawah .artikel_rec { width:263px;}
+#block_bawah .artikel_rec ul {background:#ccf;padding: 5px;margin: 0;-moz-border-radius: 3px;}
+#block_bawah .artikel_rec ul li {padding: 5px 0;list-style-type: square;list-style-position: outside;margin-left: 13px;border-bottom:1px solid #999;color: #fff;}
+#block_bawah .artikel_rec ul li a:link,#block_bawah .artikel_rec ul li a:visited {color:#fff; !important}
+#block_bawah .artikel_rec ul li a:hover {color:#ff0;text-decoration:underline;}
+#block_bawah .sum {float:left;width: 100%;padding: 0;display: block;}
+#block_bawah .thumb {float:left;width: auto;margin-right: 10px;margin-bottom: 10px;}
+#block_bawah h3 a {color:red;}
+#block_bawah .detiknews {background-color: #009 !important;}
+#block_bawah .detiksport {background-color: #c00 !important;}
+#block_bawah .detikfinance {background-color: #099 !important;}
+#block_bawah .detikinet {background-color: #609 !important;}
+
+/* Buat Blog Yang Baru */
+#blog {margin: 0;padding: 25px 0 0 0;line-height: 132%;clear: both;}
+#blog .headernya {font-family: Georgia, "Times New Roman", Times, serif; color:#009933; font-weight:bold;font-size: 15px;padding: 4px 0;margin: 0;border-top: 3px solid #cccccc;border-bottom: 1px solid #ccc;}
+#blog .headernya .headmenu {font-family: Arial, Helvetica, sans-serif;font-size: 11px;text-align: right;padding: 1px 0 0 0;margin: 0;float:right;}
+#blog h3 {font-size:14px !important; text-align:left !important; text-transform: capitalize !important; border:0 !important; padding:0 !important; margin:0 0 3px 0 !important;}
+#blog .content {background-color:#e9fbd2; border:1px solid #ccc; padding:6px 10px;margin: 1px 0;}
+#blog .content ul {margin: 0;padding: 0;}
+#blog .content ul li {list-style: none;margin: 0;padding: 5px 0;}
+#blog .linklain {text-align:right; font-weight:bold; margin: 0;padding: 2px 0;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;}
+#kiriisi #blog .content .image { background-color:#fff;margin: 3px 10px 0 0;padding: 2px; float:left;}
